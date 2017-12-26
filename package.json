@@ -24,7 +24,10 @@
   "homepage": "http://www.weiwiz.com",
   "keywords": [],
   "dependencies": {
+    "log4js": "^2.4.1",
+    "@alicloud/sms-sdk": "^1.0.2",
     "async": "^2.1.4",
+    "child_process": "^1.0.2",
     "fs": "0.0.1-security",
     "lodash": "^4.17.4",
     "meshblu": "^2.2.7",
@@ -37,8 +40,7 @@
     "tracer": "^0.8.7",
     "tv4": "^1.2.7",
     "twilio": "^2.11.1",
-    "util": "^0.10.3",
-    "child_process": "^1.0.2"
+    "util": "^0.10.3"
   },
   "devDependencies": {},
   "engines": {

@@ -1,17 +1,20 @@
 {
   "self": {
     "type": {
-      "id": "070F08000000",
+      "id": "070F0B000000",
       "name": "sms",
       "icon": ""
     },
-    "module": "./lib/sms/me-sms",
-    "uuid": "29492e8c-d4de-46f0-bd13-1eb8cefc9a4a",
-    "token": "4173fbe35774d9e74612bf5f768c7b3112a5b248",
-    "zkPath": "/system/services/sms/cluster/29492e8c-d4de-46f0-bd13-1eb8cefc9a4a"
+    "module": "./lib/sms/me-sms"
   },
   "zookeeper": {
-    "host": "115.28.241.149",
+    "host": "tech-artisan.net",
     "port": 2181
+  },
+  "meshblu_server": {
+    "db_url": "mongodb://root:wzh83573100@127.0.0.1:27017/admin",
+    "host": "127.0.0.1",
+    "port": 6565,
+    "message_timeout": 30
   }
 }
